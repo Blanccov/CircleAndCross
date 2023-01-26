@@ -113,6 +113,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     resetButton.addEventListener('click', resetBoard);
     resetButton.addEventListener('click', function(){
-        winner.innerHTML ="";
+        winner.innerHTML ="...";
     });
 });
